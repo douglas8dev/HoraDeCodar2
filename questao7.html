@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        var numeros = []; 
+        var soma = 0
+
+        for(var i = 0; i<=5; i++){
+            i++
+        var numero = parseFloat(prompt("Adicione o " + i + " ° número" ));
+            i--
+            if(numero<72){
+                numeros[i] = numero 
+                soma += numeros[i]
+            }else {
+                numeros[i] = numero
+            }
+        }
+
+        alert("O valor da soma dos números são: " + soma + "\n" + "Os numeros informados foram: " + numeros) 
+
+    </script>
+    
+</body>
+</html>

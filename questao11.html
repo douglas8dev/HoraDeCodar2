@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var valor1 = parseInt(prompt("Informe o primeiro valor: "));
+        var valor2 = parseInt(prompt("Informe o segundo valor: "));  
+        var operacao = parseInt(prompt("Informe a operação: 1 Adição | 2 Subtração | 3 Divisão | 4 Multiplicação"));   
+        
+        switch(operacao){
+            case 1: 
+            var adicao = valor1+valor2
+            alert("Resultado: " + adicao)
+            break;
+
+            case 2:
+            var subtracao = valor1-valor2
+            alert("Resultado: " + subtracao)  
+            break;
+            
+            case 3:
+            var divisao = valor1 / valor2
+            alert("Resultado: " + divisao)
+            break;
+
+            case 4:
+            var multiplicacao = valor1 * valor2
+            alert("Resultado: " + multiplicacao)
+            break;
+
+            default: 
+                alert("Escolha um numero de 1 a 4!")
+        }
+        
+    </script>
+
+    
+</body>
+</html>
